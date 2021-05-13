@@ -1,2 +1,24 @@
-# book-scraper
-A web scraper that gets the image, title, and price of a book
+# Book-scraper
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is simple web scraper that gets the cover image url, title, and price of a book on [Amazon.co.jp](https://www.amazon.co.jp/).
+	
+## Technologies
+Created with:
+* JavaScript
+* xPath
+* [Puppeteer](https://www.npmjs.com/package/puppeteer) version: 9.1.1
+	
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../book-scraper
+$ npm install puppeteer
+$ node scrapers.js
+```
