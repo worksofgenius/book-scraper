@@ -1,4 +1,5 @@
 # Book-scraper
+![book-scraper-screenshot](https://github.com/worksofgenius/book-scraper/blob/main/book-scraper-screenshot.png)
 
 ## Table of contents
 * [General info](#general-info)
