@@ -13,6 +13,7 @@ This project is simple web scraper that gets the cover image url, title, and pri
 Created with:
 * JavaScript
 * xPath
+* RegEx
 * [Puppeteer](https://www.npmjs.com/package/puppeteer) version: 9.1.1
 	
 ## Setup
