@@ -16,7 +16,7 @@ Created with:
 * [Puppeteer](https://www.npmjs.com/package/puppeteer) version: 9.1.1
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally and use npm:
 
 ```
 $ cd ../book-scraper
