@@ -5,8 +5,8 @@ async function scrapeProduct(url) {
   const page = await browser.newPage();
   await page.goto(url);
 
-  const [imgTxt] = await page.$x('//*[@id="imgBlkFront"]');
-  const imgUrl = await imgTxt.getProperty('src');
+  const [imgSrc] = await page.$x('//*[@id="imgBlkFront"]');
+  const imgUrl = await imgSrc.getProperty('src');
   const cover = await imgUrl.jsonValue();
 
   const [titleTxt] = await page.$x('//*[@id="productTitle"]');
